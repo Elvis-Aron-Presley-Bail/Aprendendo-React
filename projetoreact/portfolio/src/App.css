@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imagem {
+    width: 400px;
+}
+
+.apresentacao {
+    font-size: 50px;
+}
+
+link span {
+    color: red;
+    font-weight: 700;
+}
+
+.botao {
+    height: 50px;
+    width: 200px;
+    font-size: 17px;
+    background-color: rgb(49, 49, 172);
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: rgb(90, 90, 168);
+}
