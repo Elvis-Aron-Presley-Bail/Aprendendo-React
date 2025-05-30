@@ -1,0 +1,42 @@
+.principal {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('universe-view-4k-5b (2).jpg');
+    background-size: cover;
+}
+
+.principal div {
+    font-size: 30px;
+    width: 420px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px 5px;
+}
+
+.principal div span {
+    font-weight: 800;
+    color: rgb(2, 2, 59);
+}
+
+.principal figure img {
+    width: 350px;
+}
+
+@media (max-width: 867px) {
+    .principal figure img {
+        display: none;
+    }
+
+    .principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
