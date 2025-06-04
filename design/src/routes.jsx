@@ -6,7 +6,6 @@ import Info from "./Pages/Info";
 import Error404 from "./Pages/Error404";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import Container from "./Components/Container";
 
 function CreateRoutes() {
     return (
